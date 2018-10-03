@@ -21,9 +21,9 @@ The bash script tested on Ubuntu 18.04
 	
 #### Update order
 ```
-	curl -i -X POST -H "Content-Type:application/json" http://localhost:8080/order/:id -d '{"status": "taken"}'
+	curl -i -X POST -H "Content-Type:application/json" http://127.0.0.1:8080/order/:id -d '{"status": "taken"}'
 ```
 
-#### List Order
+#### List orders
 ```
-	curl -i -X GET -H "Content-Type:application/json" http://localhost:8080/orders
+	curl -i -X GET -H "Content-Type:application/json" http://127.0.0.1:8080/orders

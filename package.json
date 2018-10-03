@@ -1,0 +1,25 @@
+{
+  "name": "mean-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "google-distance": "^1.0.1",
+    "joi": "^13.6.0",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.2.10",
+    "pug": "^2.0.3",
+    "request": "^2.88.0",
+    "sinon": "^6.3.4",
+    "supertest": "^3.3.0"
+  }
+}
